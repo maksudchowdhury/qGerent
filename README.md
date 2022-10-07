@@ -38,9 +38,9 @@ Features:
 10.	View panel for admin: Hair dressers or admin can see the queue<br>
  ![image](https://user-images.githubusercontent.com/45464612/194604664-d4ae2bf3-7cb6-4653-9763-9ce91db6fa47.png)<br>
 
-11.	Dismiss request for admin: Hair dresser or admin can dismiss a request 
-<br>
- ![image](https://user-images.githubusercontent.com/45464612/194604682-68460489-0195-493d-bd73-61fdfa03d711.png)<br>
+11.	Dismiss request for admin: Hair dresser or admin can dismiss a request  <br>
+![image](https://user-images.githubusercontent.com/45464612/194605143-276b3c14-664c-4ad4-8e0e-7d33c41e05ab.png)  <br>
+
 
 12.	Confirmation on dismissal of request <br>
  ![image](https://user-images.githubusercontent.com/45464612/194604704-9b4455c1-0016-457f-8e5b-191cad4ca520.png)<br>
