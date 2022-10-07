@@ -46,8 +46,9 @@ Features:
  ![image](https://user-images.githubusercontent.com/45464612/194604704-9b4455c1-0016-457f-8e5b-191cad4ca520.png)<br>
 
 13.	Logout for admin on going back
- 
+ <br>
 Challenges:
+<br>
 1.	Database management: It was challenging for us to implement a real time database but using firebase solved the problem. 
 2.	Getting users to install the app: We provoked the customers to know about amount of people in, crowd, estimated time and saving time before even coming to the shop by using the application. Hence, we inspired our customers to install the app.
 3.	Getting shop owners to install the app: We enlightened the hair dressers to maintain customers, to avoid crowd, to understand work pressure, time estimation etc. from the app. This made them buy our solution
