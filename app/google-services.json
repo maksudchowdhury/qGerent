@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "45976797514",
+    "project_id": "qgerent-d45eb",
+    "storage_bucket": "qgerent-d45eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45976797514:android:aa97894cfdf70d727381b3",
+        "android_client_info": {
+          "package_name": "com.example.qgerent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45976797514-jtqvkaj61745r2kqatl28eb2lu7kk22i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMNNB3I5GT_LuzUXoZpr_CeGywwQbNoiA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45976797514-jtqvkaj61745r2kqatl28eb2lu7kk22i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

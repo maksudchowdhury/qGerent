@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="imageView4" type="id" />
+    <item name="customerEmailEdt" type="id" />
+    <item name="customerGenderEdt" type="id" />
+    <item name="customerPhoneEdt" type="id" />
+    <item name="customerCPassEdt" type="id" />
+    <item name="customerSignupBtn" type="id" />
+    <item name="customerSigninRedirect" type="id" />
+    <item name="customerRegisterLoadingCircle" type="id" />
+</resources>

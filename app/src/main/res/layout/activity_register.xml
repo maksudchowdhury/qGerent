@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wavebg"
+    android:textAlignment="gravity"
+    tools:context=".register">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07999998"
+        app:srcCompat="@drawable/qgerent_logo"
+        tools:layout_editor_absoluteX="71dp" />
+
+    <EditText
+        android:id="@+id/customerNameEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200px"
+
+        android:layout_marginTop="96dp"
+        android:layout_marginRight="200px"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:padding="15px"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/customerEmailEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200px"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="200px"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textWebEmailAddress"
+        android:padding="15px"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/customerNameEdt" />
+
+    <EditText
+        android:id="@+id/customerGenderEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200px"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="200px"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Gender"
+        android:inputType="textPersonName"
+        android:padding="15px"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/customerEmailEdt" />
+
+    <EditText
+        android:id="@+id/customerPhoneEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200px"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="200px"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="number"
+        android:padding="15px"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/customerGenderEdt" />
+
+    <EditText
+        android:id="@+id/customerPassEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200px"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="200px"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="15px"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/customerPhoneEdt" />
+
+    <EditText
+        android:id="@+id/customerCPassEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200px"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="200px"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:padding="15px"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/customerPassEdt" />
+
+    <TextView
+        android:id="@+id/customerSignupBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="#FFA500"
+        android:clickable="true"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Sign up"
+        android:textAlignment="center"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/customerCPassEdt"
+        app:layout_constraintVertical_bias="0.306" />
+
+    <TextView
+        android:id="@+id/customerSigninRedirect"
+        android:layout_width="248dp"
+        android:layout_height="53dp"
+        android:background="#000000"
+        android:clickable="true"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Already registered? Sign in"
+        android:textAlignment="center"
+
+
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/customerSignupBtn" />
+
+    <ProgressBar
+        android:visibility="invisible"
+        android:id="@+id/customerRegisterLoadingCircle"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/customerNameEdt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

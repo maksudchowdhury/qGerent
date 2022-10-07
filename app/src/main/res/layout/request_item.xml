@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="5dp"
+    android:elevation="10dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#656565"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:background="#373737"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/qCustomerNameAP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="qUserNameAP"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/qCustomerEmailAP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/qCustomerServiceAP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Haircut"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="0.2"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:id="@+id/removeCustomerBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#373737"
+                android:src="@android:drawable/ic_delete" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
