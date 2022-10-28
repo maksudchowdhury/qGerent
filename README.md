@@ -1,5 +1,5 @@
 # qGerent
-<br><b><ins>The name qGerent was inspired from q(Queue) and Gerent(Manager). So qGerent basically stands for something that manages a queue.</ins><b>
+<br><b>The name qGerent was inspired from q(Queue) and Gerent(Manager). So qGerent basically stands for something that manages a queue.<b>
 <br>
  ***
  Previously there was no option for booking for a hair salon. It was so hassle to go and maintain the queue physically. So, we prepared a application named QGerent where you can sit at your residence and book the reservation for having the service. Even you can see the queue and when your time to go for taking service. This is very time saving and here is first come first service so no one can break the queue. Even customer can see the updating of the serial. It makes easier to keep the safety also. Even when it will be overloaded for a day service provider can cancel the request for that day.
